@@ -24,7 +24,9 @@ inputs:
     description: github commit message to push with
     required: false
     default: 'pre-commit fixes'
-
+outputs:
+  committed:
+    description: Commit ID of auto-fix pushed, if enabled and changes were required
 runs:
   using: 'node12'
   main: 'dist/index.js'
