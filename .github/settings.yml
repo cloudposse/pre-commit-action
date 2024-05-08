@@ -1,0 +1,7 @@
+# Upstream changes from _extends are only recognized when modifications are made to this file in the default branch.
+_extends: .github
+repository:
+  name: github-action-pre-commit
+  description: A GitHub action to run pre-commit and allow overriding the git config user name and email
+  homepage: https://cloudposse.com/accelerate
+  topics: ""
