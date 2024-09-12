@@ -5,3 +5,4 @@ repository:
   description: A GitHub action to run pre-commit and allow overriding the git config user name and email
   homepage: https://cloudposse.com/accelerate
   topics: ""
+
